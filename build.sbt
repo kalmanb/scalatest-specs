@@ -2,7 +2,7 @@ organization := "com.kalmanb"
 
 name := "scalatest-specs"
 
-scalaVersion := "2.11.1"
+crossScalaVersions := Seq("2.10.0", "2.11.0")
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.3",
@@ -12,8 +12,6 @@ libraryDependencies ++= Seq(
   "junit" % "junit" % "4.11" % "test",
   "org.mockito" % "mockito-all" % "1.9.5" % "test" 
 )
-
-
 
 
 
