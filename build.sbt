@@ -4,8 +4,7 @@ name := "scalatest-specs"
 
 version := "1.0.0-SNAPSHOT"
 
-//crossScalaVersions := Seq("2.10.0", "2.11.0")
-crossScalaVersions := Seq("2.11.0")
+scalaVersion := "2.11.4"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.8",
